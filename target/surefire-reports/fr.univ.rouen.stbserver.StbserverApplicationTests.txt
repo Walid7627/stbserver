@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: fr.univ.rouen.stbserver.StbserverApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 6.524 s <<< FAILURE! - in fr.univ.rouen.stbserver.StbserverApplicationTests
+contextLoads  Time elapsed: 0.03 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: 
+Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'POSTController' method 
+fr.univ.rouen.stbserver.controllers.POSTController#getXML()
+to { /xml}: There is already 'GETController' bean method
+fr.univ.rouen.stbserver.controllers.GETController#getXML() mapped.
+Caused by: java.lang.IllegalStateException: 
+Ambiguous mapping. Cannot map 'POSTController' method 
+fr.univ.rouen.stbserver.controllers.POSTController#getXML()
+to { /xml}: There is already 'GETController' bean method
+fr.univ.rouen.stbserver.controllers.GETController#getXML() mapped.
+

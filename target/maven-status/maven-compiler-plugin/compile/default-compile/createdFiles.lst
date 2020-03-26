@@ -1,0 +1,6 @@
+fr/univ/rouen/stbserver/controllers/GETController.class
+model/TestSTB.class
+fr/univ/rouen/stbserver/StbserverApplication.class
+fr/univ/rouen/stbserver/ServletInitializer.class
+fr/univ/rouen/stbserver/controllers/IndexController.class
+fr/univ/rouen/stbserver/controllers/POSTController.class
